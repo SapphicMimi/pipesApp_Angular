@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { ProductsModule } from './products/products.module';
 
 // import { ButtonModule } from 'primeng/button';
 
@@ -16,10 +17,12 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    ProductsModule
     // ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
