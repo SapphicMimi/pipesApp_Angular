@@ -32,11 +32,11 @@
                 <th>Color</th>
             </tr>
         </ng-template>
-        <ng-template pTemplate="body" let-product>
+        <ng-template pTemplate="body" let-hero>
             <tr>
-                <td>{{ product.name }}</td>
-                <td>{{ product.canFly }}</td>
-                <td>{{ product.color }}</td>
+                <td>{{ hero.name }}</td>
+                <td>{{ hero.canFly | canFly }}</td>
+                <td>{{ hero.color }}</td>
             </tr>
         </ng-template>
       </p-table>
