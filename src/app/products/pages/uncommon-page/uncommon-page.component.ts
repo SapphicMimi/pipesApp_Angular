@@ -32,4 +32,6 @@ export class UncommonPageComponent {
   deleteClient(): void {
     this.clients.shift();
   }
+
+
 }
